@@ -1,0 +1,86 @@
+/* Form Container */
+.course-view {
+  width: 90%;
+  margin: 90px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-view h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.course-table th {
+  background: linear-gradient(to right,#ff0000, #ff6600);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.course-table td {
+  color: #555;
+}
+
+.course-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.course-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+.delete-btn,
+.edit-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+  transform: scale(1.05);
+}
+
+.edit-btn {
+  background-color: #007bb5;
+  color: white;
+  margin-left: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #0288d1;
+  transform: scale(1.05);
+}

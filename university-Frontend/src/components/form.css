@@ -1,0 +1,101 @@
+/* General Container */
+.course-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: transparent;
+  
+}
+
+/* Card Style */
+.course-form-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  
+}
+
+.course-form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+.course-form-group {
+  margin-bottom: 20px;
+}
+
+.course-form-label {
+  display: block;
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 8px;
+}
+
+.course-form-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.course-form-input:focus {
+  border: 1px solid #ff6600;
+}
+
+/* Error Messages */
+.error-text {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Submit Button */
+.course-form-submit {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-form-submit:hover {
+  background-color: #ff4d00;
+}
+
+.course-form-submit:focus {
+  outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .course-form-card {
+    padding: 30px;
+  }
+
+  .course-form-title {
+    font-size: 20px;
+  }
+
+  .course-form-input {
+    font-size: 14px;
+  }
+
+  .course-form-submit {
+    font-size: 14px;
+  }
+}

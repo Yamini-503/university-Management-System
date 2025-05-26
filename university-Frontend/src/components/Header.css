@@ -1,0 +1,60 @@
+/* Styling for the header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
+    color: white;
+    z-index: 10;
+    /* To keep it above the content */
+}
+
+.logo img {
+    width: 80px;
+    /* Adjust the size of the logo */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+    /* Hover effect to match the button color */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ff6600;
+}
